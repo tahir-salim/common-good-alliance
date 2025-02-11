@@ -1,0 +1,169 @@
+@media only screen and (max-width: 1920px) and (min-width: 1500px) {
+	.container {
+		max-width: 1315px;
+	}
+}
+
+@media only screen and (max-width: 1367px) {
+	html {
+		font-size: 15px;
+	}
+	.main-header .container-fluid{ width: 100%; }
+	.menu li a{ padding: 0.5rem 0.6rem; }
+	.bannCont h1{ font-size: 3rem; }
+	.BxSimple p{ padding-right: 0rem; }
+	.BxSimple{ padding: 3rem 0rem 0 0; }
+	.ourworkDv:hover .hovercont{ top: 50%; transform: translateY(-50%); }
+	.BlogBox .fullblog .date_details h5,
+	.BlogBox .fullblog .date_details p{ margin-bottom: 0; }
+	.BlogBox .fullblog .date_details{ margin-bottom: 1rem; }
+	
+
+}
+
+@media (max-width: 1199.98px) {
+	html {
+		font-size: 14px;
+	}
+	.main-header .container{ max-width: 95%; }
+	.menuWrap .menu a{ }
+	h1{ font-size: 3.675rem; }
+
+	.menu li a{ font-size: 1rem; }
+	.bannCont{ width: 780px; }
+	.aboutSec .posset{ bottom: 0; }
+	.BxSimple {
+		padding: 0;
+	}
+	.BxSimple h2{  font-size: 2rem; }
+	.BlogBox .date_details p{  margin-bottom: 0; }
+	.BlogBox .date_details h5{ margin-bottom: 0; }
+	.BlogBox .date_details{ margin-bottom: 1rem; }
+
+
+	.logo{ font-size: 1.213rem;}
+	.menu li.last a{ margin-left: 0.5rem; }
+	.aboutSec{ padding: 8rem 0 5rem; }
+	.ourworkDv .hovercont{ top: 70%; }
+	section{ padding: 3rem 0; }
+
+	.flogo .logo{ font-size: 1.213rem; }
+
+	.subscribeform input[type="text"]{ width: 100%; }
+	.subscribeform .btnSubmit{ position: relative; }
+	.subscribeform input[type="text"]{ margin-bottom: 1rem; }
+
+	.ourworkDv:hover .hovercont p, 
+	.ourworkDv:hover .hovercont a{ margin-bottom: 1rem; }
+	.ourworkDv .hovercont{ padding: 1rem 2rem; }
+
+	
+
+}
+
+@media (max-width: 991.98px) {
+	html {
+		font-size: 13px;
+	}
+	.container{ max-width: 90%; }
+	.menuWrap .menu a{ padding: 5px 10px; margin-bottom: 10px; }
+	.main-header{ position: relative;  }
+	.menu-Bar{ display: block; top: 50%; bottom: initial; transform: translateY(-50%); }
+	.menuWrap.open{ display:flex; left:0px }
+	.menuWrap{ position:fixed; left:-210%; right:0; top:0;bottom:0;margin:auto;background:var(--secondary-color);height:100vh;display:flex;align-items:center;justify-content:center;flex-flow:column;transition:all 0.4s ease;z-index:3;width:100vw}
+	ul.menu li{ display:block }
+	ul.menu li a{ margin-bottom:10px;padding:0;display:block;text-align:center;margin-bottom:15px;padding-right:0px;margin-right:0px;color:#fff;font-size:15px;text-transform:capitalize}
+
+	.menuWrap .menu{ display: block; }
+	.menu li:hover a, .menu li.active a{ color: var(--theme-color); }
+	.menu-Bar span{ background: var(--black); }
+
+	.aboutSec h2{ font-size: 1.438rem; }
+	.bannCont{ width: 60%; padding: 2rem 1rem 2rem 3rem; }
+	.ourworkDv .hovercont{ padding: 1rem 1rem; }
+	.BlogBox .fullblog img{ height: 400px; object-fit: cover; }
+	.subscribeform .btnSubmit{ position: relative; }
+	.subscribeform input[type="text"]{ padding-right: 10px; margin-bottom: 1rem; }
+
+
+	.bannCont h1{ font-size: 2rem; }
+	.aboutWork{ padding: 5rem 0; }
+	
+	.BlogBox .date_details{ display: block; }
+
+}
+
+@media (max-width: 767.98px) {
+	
+
+	html {
+		font-size: 14px;
+	}
+	.menu-Bar{ top: 50px; }
+	.menuWrap .menu a{ padding: 8px 10px; margin-bottom: 6px; }
+	.aboutSec .posset{ position: relative; bottom: initial; }
+	.aboutSec h2{  font-size: 1.838rem; }
+
+	.bannCont{ width: 100%; padding: 1rem 1rem; text-align: center; }
+	.bannCont h1{ font-size: 2rem; }
+	.bannCont p{ margin: 0 0 1rem; }
+	.aboutSec .posset{ margin-top: 2rem; }
+	.BxSimple{ text-align: center; }
+	.aboutSec{ text-align: center; }
+	.ourworkDv .hovercont{ text-align: center; }
+	.ourworkDv:before{ opacity: 0.6; z-index: 1; }
+	.ourworkDv .hovercont{ top: 50%; transform: translateY(-50%); padding: 1rem 2rem; }
+	.ourworkDv .hovercont p, .ourworkDv .hovercont a{  opacity: 1; }
+	.aboutWork{ padding-top: 0; padding-bottom: 5rem; text-align: center; }
+	.aboutWork figure{ position: relative; width: 100%; margin-bottom: 1.5rem; }
+	.ctaSec { text-align: center; }
+	.ctaSec .d-flex{ display: block !important; }
+	.ctaSec h2{ font-size: 2rem; }
+	.ctaSec .cont{ margin-bottom: 1.5rem; }
+	.main-Banner{  flex-wrap: wrap; }
+	.bannCont{ position: relative; bottom: 0; padding: 1.5rem 1.5rem; }
+	.aboutSec{ padding-top: 5rem; }
+	
+	.BlogBox .fullblog img{ height: initial; }
+	.InnerAboutsec{ margin-top: 5rem; }
+	.eventsSec .col-md-3{ margin-bottom: 2rem; }
+	.main-Banner img{ height: 200px; }
+	.main-Banner+section .container-fluid.pt-5{  padding-top: 0 !important; }
+	.main-Banner+section .container-fluid.pt-5 .pt-5{ padding-top: 0 !important; }
+	h2{ font-size: 2rem; }
+	.ourwork .container{ max-width: 100%; }
+	section{ padding: 3rem 0; }
+	.tabsMain{ flex-wrap: wrap; margin-bottom: 1.5rem; }
+	.ourwork [class^="box-"]{ text-align: center; }
+	.ourwork [class^="box-"] .pl-5{ padding-left: 0 !important; }
+	.eventsSec {  text-align: center; }
+	footer h4{ margin-top: 2rem; }
+	.subscribeform{  text-align: center; }
+	.subscribeform input[type="text"]{ width: 100%; }
+	footer{ padding: 3rem 0; }
+	.contactSec{ padding-top: 0; }
+	.itemslist .icons{ flex-shrink: 0; }
+	.contactSec .container.pt-5{ padding-top: 0 !important; }
+	.contactBx{ padding: 3rem 2rem; margin-top: 2rem; }
+	.aboutSec p{ padding-right: 0; }
+
+	.menu-Bar{ top: 38px; }
+
+}
+
+@media (max-width: 575.98px) {
+	html {
+		font-size: 14px;
+	}
+
+
+	
+
+}
+
+@media (max-width: 320.98px) {
+	html {
+		font-size: 14px;
+	}
+}
+
